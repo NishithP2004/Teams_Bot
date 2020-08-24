@@ -1,0 +1,44 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-shadow: 0;
+}
+html, body {
+    height: 100%;
+    width: 100%;
+}
+body {
+    background-image: url('img/bg.jpg');
+}
+main {
+    text-align: center;
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: space-evenly;
+}
+iframe {
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+::selection {
+    background-color: #0B7A75;
+    color: #D81E5B;
+}
+h1 {
+    font-family: 'Fredoka One', cursive;
+    color: white;
+    text-decoration: underline;
+    text-decoration-style: wavy;
+    text-decoration-color: #F9E900;
+    font-size: 2.25em;
+}
+footer a {
+    text-decoration: none;
+    color: #04F06A;
+    font-family: 'Fredoka One', cursive;
+    font-size: 1.28em;
+    font-style: italic;
+}
+
