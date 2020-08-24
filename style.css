@@ -9,6 +9,8 @@ html, body {
 }
 body {
     background-image: url('img/bg.jpg');
+    background-color: #D81E5B;
+    overflow: hidden;
 }
 main {
     text-align: center;
@@ -17,6 +19,10 @@ main {
     flex-direction: column;
     justify-content: center;
     align-content: space-evenly;
+}
+#disqus_thread {
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 iframe {
     padding-top: 30px;
@@ -40,5 +46,9 @@ footer a {
     font-family: 'Fredoka One', cursive;
     font-size: 1.28em;
     font-style: italic;
+}
+
+footer {
+    padding-top: 25px;
 }
 
