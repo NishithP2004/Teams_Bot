@@ -10,7 +10,6 @@ html, body {
 body {
     background-image: url('img/bg.jpg');
     background-color: #D81E5B;
-    overflow: hidden;
 }
 main {
     text-align: center;
